@@ -10,7 +10,8 @@ Installation
 
         sudo apt-get install exuberant-ctags
         git clone https://github.com/jimmykizito/vim.git ~/.vim
-        ln -s _vimrc ~/.vim/.vimrc
+        cd ~
+        ln -s ~/.vim/_vimrc ~/.vimrc 
         cd ~/.vim
         git submodule init
         git submodule update
