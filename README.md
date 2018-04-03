@@ -6,9 +6,9 @@ Repository for sharing Vim configuration across multiple machines.
 Installation
 ------------
 
-- Linux
+- Ubuntu
 
-        sudo apt-get install exuberant-ctags
+        sudo apt-get install vim vim-gnome exuberant-ctags
         git clone https://github.com/jimmykizito/vim.git ~/.vim
         cd ~
         ln -s ~/.vim/_vimrc ~/.vimrc 
